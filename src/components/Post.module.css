@@ -1,0 +1,34 @@
+.post {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: rgb(59, 124, 180);
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    animation: animate-in 1s ease-out forwards;
+} 
+.author {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+    font-style: italic ;
+    background-color: lightgreen; 
+}
+.text {        
+    white-space: pre-wrap;
+    font-size: 1.25rem;
+    margin: 0.25rem 0 0 0;
+    color: lightblue;
+    font-style: italic;
+    background-color: lightgreen ;
+}
+ 
+@keyframes animate-in {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
