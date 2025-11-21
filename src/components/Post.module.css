@@ -2,13 +2,13 @@
     
     background-color: white;
     border-radius: 8px;
+    align-items: center;
+    text-align: center;
 
 
 } 
 .author {
     font-weight: bold;
-
-    
     font-style: italic ;
     background-color: lightgreen; 
 }
@@ -16,18 +16,8 @@
 
     font-size: 1.25rem;
 
-    color: lightblue;
+    color: rgb(6, 59, 77);
     font-style: italic;
     background-color: lightgreen ;
-}
- 
-@keyframes animate-in {
-    from {
-        opacity: 0;
-        transform: translateY(1rem);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+
 }
