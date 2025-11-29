@@ -1,12 +1,13 @@
+import React from 'react';
 import classes from './post.module.css';
 
-function Post(props) {
-    return (
-        <li className={classes.post}>
-            <p className={classes.author}>{props.author}</p>
-            <p className={classes.text}>{props.body}</p>
-        </li>
-    );
+function Post({ author, body }) {
+  return (
+    <li className={classes.post}>
+      <p className={classes.author}>{author}</p>
+      <p className={classes.text}>{body}</p>
+    </li>
+  );
 }
 
 export default Post;
