@@ -1,26 +1,9 @@
-.controls {
-  max-width: 50rem;
-  margin: 1rem auto;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.controls button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .pos {
-  list-style: none;
-  max-width: 50rem;
-  margin: 1rem auto;
-  padding: 1rem 0;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  justify-content: center;
+    list-style: none;
+    max-width: 50rem;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
