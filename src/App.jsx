@@ -11,7 +11,8 @@ function App() {
 
     function hideModalHandler() {
     setModalIsVisible(false);
-  } 
+    } 
+
   return (
     <>
     <MainHeader onCreatePost={showModalHandler}/>
